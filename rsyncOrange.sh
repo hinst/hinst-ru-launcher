@@ -1,0 +1,1 @@
+rsync -av ./www/ hinst@192.168.1.36:/home/hinst/ufd/www
