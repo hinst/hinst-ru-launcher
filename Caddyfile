@@ -1,0 +1,16 @@
+https://hinst.ru
+
+proxy /FogBugzBackup localhost:9000
+proxy /FogBugzBackupApi localhost:9000
+
+proxy /massd2d localhost:9001
+proxy /h-blog localhost:5000
+
+root /home/hinst/ufd/www
+
+gzip
+log log/requests.txt {
+	rotate_size 50
+	rotate_age 30
+	rotate_keep 20
+}
